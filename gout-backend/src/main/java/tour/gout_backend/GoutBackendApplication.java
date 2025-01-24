@@ -1,4 +1,4 @@
-package test.gout_backend;
+package tour.gout_backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
