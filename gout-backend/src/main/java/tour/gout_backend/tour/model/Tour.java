@@ -18,8 +18,8 @@ import java.time.LocalDateTime;
 @Accessors(chain = true)
 @Getter
 @Setter
-@NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
+@NoArgsConstructor
 public class Tour implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
